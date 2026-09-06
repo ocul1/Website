@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clarke — Resume</title>
+<!-- Resume for ocul1.github.io. Wording source: resume-web.md (edit there, mirror here). Regenerate the PDF by printing this file to PDF. -->
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --rule: #cfcfcf;
+    --link: #14477d;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #ececec;
+    color: var(--ink);
+    font-family: Charter, "Bitstream Charter", "Palatino Linotype", Palatino,
+                 Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .page {
+    max-width: 760px;
+    margin: 32px auto;
+    background: var(--bg);
+    padding: 56px 64px 64px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  }
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .01em;
+    margin: 0 0 .35rem;
+  }
+  .contact {
+    text-align: center;
+    color: var(--muted);
+    font-size: .95rem;
+    margin: 0 0 1.8rem;
+  }
+  .contact a { color: var(--link); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .contact .sep { margin: 0 .55em; color: #999; }
+  h2 {
+    font-size: .82rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    margin: 1.7rem 0 .1rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  section > p { margin: .55rem 0; }
+  .entry { margin: .85rem 0 0; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .entry-head .title { font-weight: 700; }
+  .entry-head .aux { color: var(--link); font-size: .92rem; white-space: nowrap; }
+  .entry-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-style: italic;
+    color: var(--muted);
+    font-size: .95rem;
+  }
+  .entry-sub .when { font-style: italic; white-space: nowrap; }
+  ul { margin: .4rem 0 0; padding-left: 1.15rem; }
+  li { margin: .28rem 0; }
+  .skills p { margin: .3rem 0; }
+  .skills strong { display: inline-block; min-width: 6.5em; }
+  a { color: var(--link); }
+
+  @media (max-width: 640px) {
+    .page { margin: 0; padding: 32px 22px 44px; box-shadow: none; }
+    body { background: var(--bg); }
+    h1 { font-size: 1.6rem; }
+  }
+
+  @media print {
+    @page { size: letter; margin: 0.5in 0.62in; }
+    body { background: #fff; font-size: 10pt; line-height: 1.3; }
+    .page { margin: 0; max-width: none; padding: 0; box-shadow: none; }
+    h1 { font-size: 17pt; margin-bottom: .18rem; }
+    .contact { font-size: 9.5pt; margin-bottom: .85rem; }
+    h2 { font-size: 9pt; margin: 9pt 0 .08rem; padding-bottom: .16rem; }
+    .entry { margin-top: .5rem; }
+    section > p { margin: .3rem 0; }
+    ul { margin-top: .22rem; }
+    li { margin: .1rem 0; }
+    .entry-head .aux, .entry-sub { font-size: 9pt; }
+    a { color: #000; }
+    .contact a, .entry-head .aux { color: #000; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <h1>Clarke</h1>
+  <p class="contact">
+    <a href="mailto:adamclarke.ceng@gmail.com">adamclarke.ceng@gmail.com</a>
+    <span class="sep">|</span>
+    <a href="https://github.com/ocul1">github.com/ocul1</a>
+    <span class="sep">|</span>
+    <a href="https://ocul1.github.io">ocul1.github.io</a>
+  </p>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head"><span class="title">California State University, San Bernardino</span></div>
+      <div class="entry-sub"><span>B.S. Computer Engineering — ABET-accredited (EAC)</span><span class="when">Expected May 2028</span></div>
+      <ul>
+        <li>Cumulative GPA: 3.73</li>
+        <li>Dean&rsquo;s List — Spring 2026</li>
+        <li>Member, Computer Science and Engineering Club — Fall 2026</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head"><span class="title">Chaffey College</span></div>
+      <div class="entry-sub"><span>Coursework toward transfer to CSUSB</span><span class="when">Summer 2022 – Fall 2025</span></div>
+      <ul>
+        <li>Dean&rsquo;s Honors — Fall 2024, Fall 2025 (3.73 GPA)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Relevant Coursework</h2>
+    <p>Discrete Mathematics, Computer Networks, Computer Security Basics, Intro to
+    Computer Programming, Computer Science I (in progress), Calculus I (in progress)</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <span class="title">cstrack — Counter-Strike Match Tracker</span>
+        <a class="aux" href="https://github.com/ocul1/CLI-CS-Stat-Tracker">github.com/ocul1/CLI-CS-Stat-Tracker</a>
+      </div>
+      <div class="entry-sub"><span>Python (standard library only)</span><span class="when">July 2026</span></div>
+      <ul>
+        <li>Built a zero-dependency CLI that logs matches to JSON and reports K/D and win rate using only argparse and json.</li>
+        <li>Designed an add / list / stats subcommand interface with typed arguments, rejecting malformed input at parse time.</li>
+        <li>Handled failure cases the happy path hides: malformed JSON falls back to an empty dataset, and zero-death aggregates avoid a division-by-zero crash.</li>
+        <li>Rewrote an earlier prototype from scratch after learning argparse, turning it into a scriptable, composable tool.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <span class="title">WriterDeck — Journaling CLI</span>
+        <a class="aux" href="https://github.com/ocul1/writerdeck">github.com/ocul1/writerdeck</a>
+      </div>
+      <div class="entry-sub"><span>Python</span><span class="when">April – July 2026</span></div>
+      <ul>
+        <li>Wrote a terminal journaling tool that logs multi-line entries to a timestamped file with author and title.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head"><span class="title">Hardware Store</span></div>
+      <div class="entry-sub"><span>Fulfillment Associate — previously Cashier</span><span class="when">June 2022 – Present</span></div>
+      <ul>
+        <li>Promoted to Fulfillment Associate in April 2025 after three years as Cashier; duties grew to include returns-desk service and training associates. 8+ trained across both roles.</li>
+        <li>Coordinate 15+ deliveries per shift, verifying orders and resolving exceptions before they reach the customer.</li>
+        <li>Served 100+ customers daily at the returns desk, resolving warranty, payment, and credit card issues.</li>
+        <li>Recognized with Employee of the Month, Returns Desk MVP, and a Certificate of Outstanding Performance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <p><strong>Languages:</strong> Python, Bash, HTML/CSS</p>
+    <p><strong>Tools:</strong> Git, GitHub, GDB, Neovim, LM Studio</p>
+    <p><strong>Environments:</strong> Linux (Arch, Ubuntu), macOS, Windows</p>
+  </section>
+
+  <section>
+    <h2>Self-Directed Learning</h2>
+    <ul>
+      <li>Python Programming MOOC (University of Helsinki) — in progress.</li>
+      <li>Computer Systems: A Programmer&rsquo;s Perspective — self-studying x86-64 architecture and assembly.</li>
+    </ul>
+  </section>
+
+</main>
+</body>
+</html>
