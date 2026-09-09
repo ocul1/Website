@@ -23,21 +23,61 @@
 </nav>
 
 <h1 class="center-title">Projects</h1>
-<p>My GitHub is where you can find some of my projects. Link down below</p>
-<p><a href="https://github.com/ocul1" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-<h3>Disclaimer: Some projects where assisted by AI, and will be labeled as such</h3>
 
-<h2>Ongoing Projects:</h2>
-<ul>
-<li>Personal Website (this website)</li>
-<li>Portfolio/Resume Website (in planning phase)</li>
-<li>CSGO Win Tracker: This program allows you to track your CSGO wins and losses by inputting
-    your stats after each game, which are then saved to a text file for future reference
-</li>
-<li>Password Generator/Strength Checker: A program that checks the strength of a password based on various criteria
-    and can generate strong passwords based on user-defined parameters, was partially completed using AI assistance
-</li>
-</ul>
+<div class="projects-list">
+
+<p>A handful of the things I've built.</p>
+<p><a class="btn" href="https://github.com/ocul1" target="_blank" rel="noopener noreferrer">All of it on GitHub</a></p>
+
+<p class="disclaimer">Where a project was built with AI assistance, it's noted as such.</p>
+
+<div class="project">
+<h3>cstrack &mdash; Counter-Strike Match Tracker</h3>
+<p class="meta">Python &middot; standard library only &middot; 2026</p>
+<p>A zero-dependency command-line tool for logging Counter-Strike matches. It records each
+match &mdash; map, kills, deaths, rounds won and lost &mdash; to a JSON file and reports
+aggregate stats like overall K/D and win rate. Built around an <code>add</code> /
+<code>list</code> / <code>stats</code> subcommand interface using only <code>argparse</code>
+and <code>json</code>. A ground-up rewrite of an earlier prototype (CSGOProject), rebuilt
+as a proper scriptable CLI after learning argparse.</p>
+<a class="btn" href="https://github.com/ocul1/CLI-CS-Stat-Tracker" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+<div class="project">
+<h3>WriterDeck &mdash; Journaling CLI</h3>
+<p class="meta">Python &middot; standard library only &middot; 2026</p>
+<p>A terminal journaling tool. Write an entry across as many lines as you want, type
+<code>END</code> on its own line to finish, and it's appended to a single running log with
+your name, a title, and a timestamp &mdash; so the whole history reads straight through in
+one file. Named after the SEELE monoliths from <i>Neon Genesis Evangelion</i>.</p>
+<a class="btn" href="https://github.com/ocul1/writerdeck" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+<div class="project">
+<h3>BudgetProgram</h3>
+<p class="meta">Python &middot; 2026</p>
+<p>A small program for building a personal budget with the 50/30/20 rule, splitting income
+across needs, wants, and savings.</p>
+<a class="btn" href="https://github.com/ocul1/BudgetProgram" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+<div class="project">
+<h3>Warhammer Quote Generator</h3>
+<p class="meta">Python &middot; 2026</p>
+<p>Pulls a random line from one of two pools &mdash; Loyalist or Heretic &mdash; for
+whichever side of the Imperium you're feeling that day.</p>
+<a class="btn" href="https://github.com/ocul1/WarhammerQuoteGenerator" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+<div class="project">
+<h3>This website</h3>
+<p class="meta">HTML &amp; CSS &middot; ongoing</p>
+<p>OVERSEAS. &mdash; hand-written HTML and CSS, no framework. An ongoing place to document
+what I'm building, reading, shooting, and thinking about.</p>
+<a class="btn" href="https://github.com/ocul1/ocul1.github.io" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+</div>
 
 <footer>&copy; 2026 OVERSEAS.</footer>
 
